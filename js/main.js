@@ -1,3 +1,5 @@
+// -----------------task-1 counter start-----------------------
+
 var demo = document.querySelector(".demo");
 var start = document.querySelector("button.start");
 var stop = document.querySelector("button.stop");
@@ -17,6 +19,18 @@ start.addEventListener("click", function () {
     },100);
 });
 
+// -----------------task-2 cricle-size start-------------------
+
+var clickbtn = document.querySelector(".cricle-btn");
+var criclephoto = document.querySelector(".cricle-photo");
+
+clickbtn.addEventListener('click', function() {
+    criclephoto.classList.toggle("scaled");
+});
+
+
+
+// -----------------task-3 number-animate start--------------
 
 var btn = document.querySelector(".sizer");
 var input = document.querySelector(".inputt");
@@ -26,3 +40,4 @@ btn.addEventListener("click", function(e) {
     e.preventDefault();
     number.textContent = input.value; // Use 'input' instead of 'inputt'
 });
+
