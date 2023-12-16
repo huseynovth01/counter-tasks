@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 20%;
+}
+
+.demo {
+  position: relative;
+  min-height: 100px;
+}
+
+.square {
+  background-color: #932626;
+  width: 10%;
+  height: 30%;
+}
+
+button {
+  margin-top: 30%;
+  float: left;
+  font-family: "Droid Sans", sans-serif;
+  margin: 0 1em 0.1em 0;
+  background-color: #000;
+  color: #fff;
+  padding: 0.3em 1.8em 0.3em 1.8em;
+  border-radius: 6px;
+  cursor: pointer;
+  font-style: normal;
+  list-style-image: none;
+}
+button:hover {
+  background-color: rgb(216, 200, 179);
+  color: #000;
+}/*# sourceMappingURL=style.css.map */
