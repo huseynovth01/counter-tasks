@@ -14,5 +14,15 @@ start.addEventListener("click", function () {
                 running = false;
             })
         }
-    },300);
+    },100);
+});
+
+
+var btn = document.querySelector(".sizer");
+var input = document.querySelector(".inputt");
+var number = document.querySelector('.number');
+
+btn.addEventListener("click", function(e) {
+    e.preventDefault();
+    number.textContent = input.value; // Use 'input' instead of 'inputt'
 });

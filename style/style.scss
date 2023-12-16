@@ -1,26 +1,23 @@
 body{
-  display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-top: 20%;
 }
 
 .demo {
+  margin-left: 46%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   position: relative;
-  min-height: 100px;
-}
-
-.square {
   background-color: #932626;
-  width: 10%;
-  height: 30%;
-
+  font-size: x-large;
+  padding:30px 30px ;
+  width: 30px;
 }
 
 button {
-  margin-top: 30%;
-  float: left;
+  margin-top: 30px;
   font-family: 'Droid Sans', sans-serif;
   margin: 0 1em 0.1em 0;
   background-color: #000;
@@ -35,3 +32,9 @@ button {
     color: #000;
 }
 }
+
+.number {
+  font-size: 220px;
+  color: rgb(244, 98, 73);
+}
+
